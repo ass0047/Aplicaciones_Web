@@ -8,26 +8,35 @@
 <body>
     <h1>Formulario Curso Medac</h1>
     <form action="datos.php" method="post">
-    
 
-        <h3><label for="cmedac"> Curso medac</label></h3>
-        <input type="text" id="cmedac" name="cmedac" placeholder="SMR">
-        <h3><label for="mmedac"> Curso Medac</label></h3>
-        <input type="text" id="mmedac" name="mmedac" placeholder="Aplicaciones web"> 
-        <br><br>
-        <button type="button" onclick="alert('Hola Mundo')"> Enviar Datos</button>
-
-   </form>
-   <hr>
-   <h1>Formulario Lista de la Compra</h1>
-   <form>
-
-    <input type="checkbox" id="elemento1" name="elemento1" value="leche">
-    <label for="elemento1"> Caja de Leche</label><br>
-    <input type="checkbox" id="elemento2" name="elemento2" value="Pan" checked="true">
-    <label for="elemento1"> Pan Rústico</label><br>
-    <input type="checkbox" id="elemento3" name="elemento3" value="Huevos">
-    <label for="elemento1"> Docena de Huevos</label><br>
+        <fieldset>
+                <legend> Formulario Curso Medac </legend>
+                <h3><label for="cmedac"> Curso medac</label></h3>
+                <input type="text" id="cmedac" name="cmedac" placeholder="SMR">
+                <h3><label for="mmedac"> Curso Medac</label></h3>
+                <input type="text" id="mmedac" name="mmedac" placeholder="Aplicaciones web"> <br><br>
+        </fieldset>
+        
+        <fieldset>
+        <legend> Lista de la Compra </legend> 
+                <input type="checkbox" id="elemento1" name="elemento1" value="leche">
+                <label for="elemento1"> Caja de Leche</label><br>
+                <input type="checkbox" id="elemento2" name="elemento2" value="Pan" checked="true">
+                <label for="elemento1"> Pan Rústico</label><br>
+                <input type="checkbox" id="elemento3" name="elemento3" value="Huevos">
+                <label for="elemento1"> Docena de Huevos</label><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend> Lista Desplegable</legend>
+            <select name="select">
+                <option value="modulo1"> Sistemas Operativos en Red</option>
+                <option value="modulo2" selected> Aplicaciones Web</option>
+                <option value="modulo3"> Seguridad Informatica</option>
+            </select><br> 
+            <button type="button" onclick="alert('Hola Mundo')"> Enviar Datos</button>  
+        
+        </fieldset>
 
     </form>
 </body>
