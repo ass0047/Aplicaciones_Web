@@ -13,7 +13,7 @@
 
   <p>Ciudad:
     <select name="ciudad">
-      <option selected="selected">Málaga</option>
+      <option selected="selected">Jaén</option>
       <option>Sevilla</option>
       <option>Granada</option>
     </select>
@@ -22,10 +22,15 @@
   <p>Preferencias:<br>
     <input type="checkbox" name="preferencias[]" value="Música" /> Música
     <input type="checkbox" name="preferencias[]" value="Deportes" /> Deportes
+    <input type="checkbox" name="preferencias[]" value="Lectura" /> Informatica
     <input type="checkbox" name="preferencias[]" value="Lectura" /> Lectura
   </p>
 
-  <p><button type="submit">Enviar</button></p>
+  <p><button type="submit" onclick="alert('Formulario Enviado Correctamente')">Enviar</button></p>
+
+  <a href="index.html" class="btn-volver">Volver a Inicio</a>
+
+
 </form>
 </body>
 </html>

@@ -1,10 +1,60 @@
-body { font-family: Arial; background: #f9f9f9; margin: 20px; }
-h1, h2 { color: #2c3e50; }
-table { border-collapse: collapse; text-align: center; }
-td, th { padding: 10px; }
+body {
+  font-family: Arial;
+  margin: 20px;
+  background-color: #f0f8ff;
+}
 
-.redes { background-color: #f4cccc; }
-.sistemas { background-color: #c9daf8; }
-.aplicaciones { background-color: #d9ead3; }
-.ingles { background-color: #fff2cc; }
-.fol { background-color: #ead1dc; }
+body::before {
+  content: "DAVANTE";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 180px;
+  font-weight: bold;
+  color: rgba(0, 0, 139, 0.1); 
+  z-index: -1; 
+  white-space: nowrap;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+
+.empleo { background-color: #e6f7ff; color: #003366; }
+.ingles { background-color: #fff2cc; color: #665500; }
+.fundamentos { background-color: #f4cccc; color: #660000; }
+.sistemas { background-color: #c9daf8; color: #003399; }
+.aplicaciones { background-color: #d9ead3; color: #004d00; }
+.servicios { background-color: #ead1dc; color: #660033; }
+.seguridad { background-color: #ffe599; color: #804000; }
+.proyecto { background-color: #d0e0e3; color: #003333; }
+
+.btn-volver {
+    position: fixed;       /* Fija el botón en la pantalla */
+    top: 20px;             /* Distancia desde la parte superior */
+    right: 20px;           /* Distancia desde la derecha */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+    z-index: 1000;         /* Para que esté siempre encima */
+}
+
+.btn-volver:hover {
+    background-color: #0056b3;
+}
+
