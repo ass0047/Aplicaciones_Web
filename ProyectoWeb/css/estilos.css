@@ -1,0 +1,10 @@
+body { font-family: Arial; background: #f9f9f9; margin: 20px; }
+h1, h2 { color: #2c3e50; }
+table { border-collapse: collapse; text-align: center; }
+td, th { padding: 10px; }
+
+.redes { background-color: #f4cccc; }
+.sistemas { background-color: #c9daf8; }
+.aplicaciones { background-color: #d9ead3; }
+.ingles { background-color: #fff2cc; }
+.fol { background-color: #ead1dc; }
