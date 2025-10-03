@@ -40,9 +40,9 @@ th, td {
 .proyecto { background-color: #d0e0e3; color: #003333; }
 
 .btn-volver {
-    position: fixed;       /* Fija el botón en la pantalla */
-    top: 20px;             /* Distancia desde la parte superior */
-    right: 20px;           /* Distancia desde la derecha */
+    position: fixed;       
+    top: 20px;             
+    right: 20px;           
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -51,7 +51,7 @@ th, td {
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     transition: background-color 0.3s;
-    z-index: 1000;         /* Para que esté siempre encima */
+    z-index: 1000;         
 }
 
 .btn-volver:hover {
