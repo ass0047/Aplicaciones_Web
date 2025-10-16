@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Botón interactivo con JavaScript</h1>
+    <form>
+        <input type="button" id="button1" value="Púlsame" onclick="pulsar()">
+    </form>
+
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                alert("bienvenido");
+            });
+        });
+    </script>
+</body>
+</html>
