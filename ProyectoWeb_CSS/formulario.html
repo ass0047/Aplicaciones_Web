@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Formulario de Contacto</title>
+<link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+<h1>Formulario de Contacto</h1>
+<form action="datos.php" method="post">
+  <p>Nombre: <input type="text" name="nombre" /></p>
+  <p>Apellidos: <input type="text" name="apellidos" /></p>
+
+  <p>Ciudad:
+    <select name="ciudad">
+      <option selected="selected">Jaén</option>
+      <option>Sevilla</option>
+      <option>Granada</option>
+    </select>
+  </p>
+
+  <p>Preferencias:<br>
+    <input type="checkbox" name="preferencias[]" value="Música" /> Música
+    <input type="checkbox" name="preferencias[]" value="Deportes" /> Deportes
+    <input type="checkbox" name="preferencias[]" value="Lectura" /> Informatica
+    <input type="checkbox" name="preferencias[]" value="Lectura" /> Lectura
+  </p>
+
+  <p><button type="submit" onclick="alert('Formulario Enviado Correctamente')">Enviar</button></p>
+
+  <a href="index.html" class="btn-volver">Volver a Inicio</a>
+
+
+</form>
+</body>
+</html>
