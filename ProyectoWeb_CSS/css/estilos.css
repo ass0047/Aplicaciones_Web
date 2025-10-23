@@ -1,0 +1,188 @@
+body {
+  background-color: #d8da3d;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+}
+
+h1 {
+  text-align: center;
+  font-family: Courier, sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  background-color: teal;
+  color: white;
+}
+
+h2 {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+  color: rgb(0, 80, 120);
+}
+
+p {
+  text-align: justify;
+  font-size: smaller;
+  font-style: oblique;
+}
+
+
+ol, ul {
+  font-family: Courier, monospace;
+  font-size: medium;
+  color: rgb(50, 50, 50);
+  background-color: rgb(240, 240, 240);
+}
+
+
+table {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+th {
+  background-color: rgb(0, 80, 120);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+}
+
+
+.empleo {
+  background-color: rgb(153, 204, 255);
+  color: black;
+}
+
+.ingles {
+  background-color: rgb(255, 255, 204);
+  color: black;
+}
+
+.fundamentos {
+  background-color: rgb(204, 255, 204);
+  color: black;
+}
+
+.seguridad {
+  background-color: rgb(255, 204, 204);
+  color: black;
+}
+
+.sistemas {
+  background-color: rgb(255, 229, 204);
+  color: black;
+}
+
+.servicios {
+  background-color: rgb(204, 229, 255);
+  color: black;
+}
+
+.aplicaciones {
+  background-color: rgb(255, 204, 229);
+  color: black;
+}
+
+.proyecto {
+  background-color: rgb(204, 204, 255);
+  color: black;
+}
+
+
+input, select {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+}
+
+button {
+  background-color: teal;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+}
+
+
+.cabecera {
+  text-align: center;
+  background-color: teal;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+
+.titulo {
+  text-align: center;
+  background-color: rgb(153,102,153);
+  color: rgb(255,255,204);
+  font-family: Courier, sans-serif;
+  font-size: large;
+}
+
+.modulo {
+  background-color: rgb(230,230,230);
+  color: black;
+  text-align: left;
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+}
+
+
+#principal {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #F89B4D;
+  color: white;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  text-decoration: overline;
+}
+
+
+.fondo-imagen {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #cccccc;
+}
+
+
+.btn-volver {
+  display: block;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+}
